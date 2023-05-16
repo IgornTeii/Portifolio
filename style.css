@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(0, #120c56, #000000);
+    width: 100vh;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    color: white;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0 2px 5px rgba(0,0,0,.2);
+	margin-left: 50px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	margin-left: 10px;
+}
+
+nav li {
+	margin: 0 30px;
+}
+
+nav a {
+	color: rgb(255, 254, 254);
+	text-decoration: none;
+}
