@@ -1,0 +1,150 @@
+
+body {
+  font-family: 'Cobin', sans-serif; 
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%; 
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav h1 {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  font-size: 1rem; 
+}
+
+.main-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  max-width: 900px;
+  margin: 50px auto; 
+  padding: 2rem;
+}
+
+.info-container {
+  flex-grow: 1;
+  padding-right: 50px; 
+}
+
+.info-container h1 {
+  font-size: 3rem; 
+  margin-bottom: 1rem;
+}
+
+.info-container p {
+  font-size: 1.5rem; 
+  margin-bottom: 1.5rem;
+}
+
+.social-tech-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.social-icons {
+  margin-bottom: 1.5rem;
+}
+
+.social-icons a {
+  margin-right: 0.5rem;
+}
+
+.social-icons img {
+  width: 30px; 
+  height: 30px;
+}
+
+.tech-stack {
+  display: flex;
+  align-items: center;
+  margin-top: 50px; 
+}
+
+.tech-stack p {
+  margin-right: 1rem;
+  font-size: 1.2rem; 
+}
+
+.tech-stack img {
+  width: 40px; 
+  height: 40px;
+  margin-right: 0.5rem;
+}
+
+.profile-pic-container {
+  flex: auto;
+}
+
+.profile-pic {
+  width: 250px; 
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover; 
+}
+
+@media (max-width: 1024px) {
+  .main-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info-container {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .profile-pic-container {
+    order: -1; 
+  }
+
+  .profile-pic {
+    width: 200px; 
+    height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav h1 {
+    font-size: 1.8rem;
+  }
+
+  .nav a {
+    font-size: 1rem;
+  }
+
+  .info-container h1 {
+    font-size: 2.5rem;
+  }
+
+  .info-container p {
+    font-size: 1.3rem;
+  }
+
+  .tech-stack p {
+    font-size: 1rem;
+  }
+
+  .tech-stack img {
+    width: 35px; 
+    height: 35px;
+  }
+}
